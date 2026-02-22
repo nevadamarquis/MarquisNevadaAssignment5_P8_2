@@ -1,0 +1,9 @@
+In the last few months I have been learning the fundamentals of C++ and how programs really work. At first, the syntax felt confusing, but after building small projects I started to understand the logic behind loops, files, and functions. One of the best lessons has been realizing that a computer will do exactly what you tell it to do, even when your instructions are slightly wrong.
+
+For this assignment, I am testing a simple spellchecker that reads a dictionary file and compares it to the words inside a text file. The goal is not to create a perfect grammer tool, but to practice reading input, storing data in a vector, and checking each word step by step. When the program finds a word that is not in the dictionary, it prints that word to the screen.
+
+I wrote this short essay to simulate real writing and to include mistakes that a spellchecker should catch. Sometimes the errors are obvious, like recieve, seperate, or definately. Other times the mistakes look close to the real word, such as enviroment, acheive, and neccessary. I also included a few invented words like blorptastic and hyperfluxion to make sure the program flags them.
+
+Another tricky part is punctuation. Sentences end with commas, periods, and question marks. A good checker should still identify a word like wierd, even when it appears as wierd, or wierd. It should also catch mistakes in contractions, like dont and cant, depending on what the dictionary contains. Finally, numbers like 2026 or symbols like C++ should not break the program.
+
+Overall, this test file should help confirm that the program can handle a realistic mix of words, punctuation, and misspellings. If the output includes the intentionally wrong words above, then the spellchecker is functioning correctly and the file processing is working as expected.
