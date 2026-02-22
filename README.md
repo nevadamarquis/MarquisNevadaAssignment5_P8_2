@@ -1,4 +1,4 @@
-# MarquisNevadaAssignment5_P8_2
+# C++ Command-Line Spell Checker (Dictionary-Based File Scanner)
 ## Overview
 The program checks the spelling of all words in a text file by comparing them against a dictionary word list.
 
